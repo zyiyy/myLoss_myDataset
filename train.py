@@ -10,7 +10,7 @@ import torch
 
 
 model = LinearRegression()
-criterion = myLoss(w1=0, w2=0, w3=50)
+criterion = myLoss(w1=0.3, w2=0.7, w3=5)
 optimizer = optim.SGD(model.parameters(), lr=1e-4, momentum=0.9)
 
 num_epochs = 1000
